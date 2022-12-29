@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Blood donation management system</title>
+        <link rel="stylesheet" href="STYLE.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="projlogo.png"></a>
+            <div class="nav-links" id="navLinks"
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HOME.html">HOME</a></li>
+                    <li><a href="ABOUT.html">ABOUT</a></li>
+                    <li><a href="REGISTRATION.html">REGISTRATION</a></li>
+                    <li><a href="CONTACT.html">CONTACT</a></li>
+                    
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Donate Blood to save lives</h1>
+            <p>here we have to put some good content based on blood donation.</p>
+            <a href="BLOOD DONATION SYSREM.pdf" class="hero-btn">visit us to know more.</a>
+        </div>
+    </section>
+    <!----------------->
+
+<!--------------Javascript for toggle menu------------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.STYLE.right = "0";
+    }
+    function hideMenu(){
+        navLinks.STYLE.right = "-200px";
+    }
+</script>
+
+
+
+    </body>
+</html>
